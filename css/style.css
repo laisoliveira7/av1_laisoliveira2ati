@@ -1,26 +1,4 @@
 body {
-    background-color: #d42789;
-    color: #7a1a1a;
-}
-
-/* com opacidade */
-.overlay {
-    background: #ac495d80;
-}
-
-/* com HSL */
-h1 { color: hsl(317, 76%, 21%); }
-
-/* variável CSS (tema) */
-:root {
-    --accent: #b63f57;
-}
-.button {
-    background: var(--accent);
-    color: white;
-}
-
-/* gradiente */
-header {
-    background: linear-gradient(90deg, #c04860 0%, #dc748d 100%);
+    background-color: #47046b;
+    color: #ffffff;
 }
