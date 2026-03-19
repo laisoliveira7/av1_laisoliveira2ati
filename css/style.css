@@ -1,0 +1,11 @@
+body { 
+    background-color: #5c2b77;
+    color: #ffffff;
+    font-family: Arial, sans-serif; /* melhora a fonte */
+    margin: 0;
+    padding: 20px; /* espaço nas bordas */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* centraliza tudo */
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"> <!-- Define acentuação correta (UTF-8) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Deixa responsivo no celular -->
+    
+    <!-- Importa o arquivo de estilos (CSS) -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>AV1 - Lista</title> <!-- Título da aba do navegador -->
+</head>
+<body>
+
+    <!-- Título principal da página -->
+    <h1>Lista de Tarefas</h1>
+
+    <!-- Formulário para adicionar novas tarefas -->
+    <form id="formMensagem">
+        <!-- Texto explicando o campo -->
+        <label for="mensagem">o que você quer adicionar?</label>
+        
+        <!-- Campo onde o usuário digita a tarefa -->
+        <input id="mensagem" type="text" />
+        
+        <!-- Botão para enviar o formulário -->
+        <button type="submit">Adicionar</button>
+    </form>
+
+    <!-- Aqui aparece mensagem de erro (ex: campo vazio) -->
+    <p id="erro"></p>
+
+    <!-- Subtítulo da lista -->
+    <h2>Lista</h2>
+    
+    <!-- Lista onde as tarefas vão aparecer -->
+    <ul id="lista"></ul>
+
+    <!-- Importa o JavaScript (responsável pela lógica) -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
